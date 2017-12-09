@@ -1,15 +1,16 @@
 <?php
-require 'Person.php';
 
-$person = new Person('John', '20');
+require 'Bird.php';
+require 'Pegion.php';
+require 'Penguin.php';
 
-echo $person->sentense();
+$pegion = new Pegion(true, 2);
+$penguin = new Penguin(false, 4);
 
-# Objects
-//$object = new stdClass;
-//$object->names = ['John', 'Billy', 'Susan', 'Max'];
-//
-//foreach($object->names as $name){
-//    echo $name . '<br>';
-//}
+if($pegion->getCanFly()){
+    echo 'Pegion can fly <br>';
+}
 
+if(!$penguin->getCanFly()){
+    echo 'Penguin cant fly <br>';
+}
