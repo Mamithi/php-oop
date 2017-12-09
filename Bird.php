@@ -8,8 +8,8 @@
 
 class Bird
 {
-    public $can_fly;
-    public $leg_count;
+    protected $can_fly;
+    protected $leg_count;
 
     public function __construct($can_fly, $leg_count)
     {

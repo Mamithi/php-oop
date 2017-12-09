@@ -14,3 +14,5 @@ if($pegion->getCanFly()){
 if(!$penguin->getCanFly()){
     echo 'Penguin cant fly <br>';
 }
+
+$penguin->foo();

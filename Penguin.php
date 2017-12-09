@@ -8,5 +8,8 @@
 
 class Penguin extends Bird
 {
-
+    public function foo()
+    {
+        echo $this->leg_count;
+    }
 }
