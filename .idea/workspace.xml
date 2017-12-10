@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8795bd7-f3c7-4588-a4f6-497437bd00d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependency2/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependency2/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependency2/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomInterface/Cat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomInterface/Dog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomInterface/TalkInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomInterface/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfaces/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,35 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dependency2/Database.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CustomInterface/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dependency2/User.php">
+      <file leaf-file-name="Dog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CustomInterface/Dog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-              <folding>
-                <marker date="1512853909065" expanded="true" signature="281:298" ph="INSERT INTO users... " />
-                <marker date="1512853909065" expanded="true" signature="281:302" ph="INSERT INTO users ...... " />
-                <marker date="1512853909065" expanded="true" signature="281:305" ph="INSERT INTO users... " />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dependency2/index.php">
+      <file leaf-file-name="Cat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CustomInterface/Cat.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TalkInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CustomInterface/TalkInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -70,6 +79,12 @@
         <option value="$PROJECT_DIR$/dependency2/Database.php" />
         <option value="$PROJECT_DIR$/dependency2/index.php" />
         <option value="$PROJECT_DIR$/dependency2/User.php" />
+        <option value="$PROJECT_DIR$/interfaces/index.php" />
+        <option value="$PROJECT_DIR$/interfaces/Collection.php" />
+        <option value="$PROJECT_DIR$/CustomInterface/TalkInterface.php" />
+        <option value="$PROJECT_DIR$/CustomInterface/Dog.php" />
+        <option value="$PROJECT_DIR$/CustomInterface/Cat.php" />
+        <option value="$PROJECT_DIR$/CustomInterface/index.php" />
       </list>
     </option>
   </component>
@@ -81,8 +96,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="755" />
-    <option name="y" value="24" />
+    <option name="x" value="724" />
+    <option name="y" value="21" />
     <option name="width" value="925" />
     <option name="height" value="1012" />
   </component>
@@ -113,7 +128,7 @@
             <path>
               <item name="php" type="b2602c69:ProjectViewProjectNode" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dependency2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CustomInterface" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -148,15 +163,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512848833647</updated>
-      <workItem from="1512848835552" duration="5035000" />
+      <workItem from="1512848835552" duration="7237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5035000" />
+    <option name="totallyTimeSpent" value="7237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="755" y="24" width="925" height="1012" extended-state="0" />
+    <frame x="724" y="21" width="925" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41562855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -285,6 +300,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dependency2/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <marker date="1512853909065" expanded="true" signature="281:298" ph="INSERT INTO users... " />
+            <marker date="1512853909065" expanded="true" signature="281:302" ph="INSERT INTO users ...... " />
+            <marker date="1512853909065" expanded="true" signature="281:305" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dependency2/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -293,15 +320,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dependency2/User.php">
+    <entry file="file://$PROJECT_DIR$/interfaces/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <marker date="1512853909065" expanded="true" signature="281:298" ph="INSERT INTO users... " />
-            <marker date="1512853909065" expanded="true" signature="281:302" ph="INSERT INTO users ...... " />
-            <marker date="1512853909065" expanded="true" signature="281:305" ph="INSERT INTO users... " />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaces/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomInterface/TalkInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomInterface/Cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomInterface/Dog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomInterface/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
