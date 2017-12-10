@@ -6,12 +6,7 @@
  * Time: 11:44 PM
  */
 
-require_once 'Calculator.php';
-require_once 'OperatorInterface.php';
-require_once 'Adder.php';
-require_once 'Subtractor.php';
-require_once 'Multiplier.php';
-require_once 'Divider.php';
+require_once 'init.php';
 
 $c = new Calculator;
 
