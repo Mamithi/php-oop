@@ -13,4 +13,10 @@ $c = new Collection();
 $c->add('foo');
 $c->add('bar');
 
-echo json_encode($c);
+$c->baz = 'qux';
+
+echo $c;
+
+//echo $c->foo('foo', 'bar', 'baz', 'qux');
+
+//echo '<pre>' . print_r($c->all(), TRUE);
